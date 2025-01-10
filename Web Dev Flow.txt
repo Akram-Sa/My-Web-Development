@@ -1,0 +1,7 @@
+Module - 4
+Topic- HTML5
+Tags= header, main, article, section, figcaption, footer, Nav, time, 
+label (input field idntfy in form), placeholder, fieldset, legend(form upper text dggn), radio(input type), checkbox (one or more choice, textarea (under the fieldset)
+\\\
+table, td*4 (create 4 tag), tbody, thead, tfooter, border-collapse, th (table head)
+Caption(Top Of the table)  
