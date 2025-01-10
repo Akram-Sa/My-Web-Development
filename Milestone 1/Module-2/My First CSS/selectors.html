@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mixed selectors</title>
+    <style>
+      p {
+        color: royalblue;
+      }
+      #fifth,
+      li {
+        background-color: rgb(231, 162, 162);
+        font-size: 26px;
+      }
+      .Never {
+        background-color: aqua;
+      }
+      .bold {
+        font-weight: 800;
+      }
+      * {
+        /*0margin: 0;*/
+      }
+      input[type="password"] {
+        color: brown;
+      }
+      .bad{
+        color:deeppink;
+      }
+      .hudai{
+        background-color: aquamarine;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Explore my Love life</h3>
+    <p>My first <span class="bad">love</span></p>
+    <p id="fifth">My second love</p>
+    <p class="Never bold">My third love</p>
+    <p class="bold">My fourth love</p>
+    <p class="Never">My sixth love</p>
+    <p>My seventh love</p>
+
+    <div class="hudai">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quia a at, dolor exercitationem tempore consequuntur illo labore, eveniet dolore sapiente iusto, facere numquam quas. Doloremque perspiciatis quaerat nobis maxime.</p>
+    </div>
+
+    <ol>
+      <li>Element selector</li>
+      <li>Id selector</li>
+      <li>wow</li>
+    </ol>
+    <form action="">
+      <input type="text" />
+      <input type="password" />
+    </form>
+  </body>
+</html>

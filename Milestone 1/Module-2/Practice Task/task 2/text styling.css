@@ -1,0 +1,14 @@
+body{
+   color:brown;
+   text-align: center;
+   font-size:large;
+   font-family: 'Courier New', Courier, monospace;
+   .oma{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   }
+   #toma{
+    color:tomato;
+    font-size:xx-large;
+    font-style: italic;
+   }
+}
