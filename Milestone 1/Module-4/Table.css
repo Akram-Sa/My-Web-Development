@@ -1,11 +1,23 @@
-
-td,th{
-    border: 2px solid blue;
-    padding: 5px 10px;
+td,
+th {
+  border: 2px solid blue;
+  padding: 5px 10px;
 }
-table{
-    border-collapse: collapse;
+table {
+  border-collapse: collapse;
 }
-tbody{
-    text-align: center;
+tbody {
+  text-align: center;
+}
+nav ul {
+  display: flex;
+}
+nav li {
+  list-style: none;
+  margin-right: 10px;
+  padding: 5px;
+  text-decoration: none;
+}
+nav li:hover {
+  background-color: aqua;
 }
