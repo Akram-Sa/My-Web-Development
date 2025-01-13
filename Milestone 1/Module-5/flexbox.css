@@ -1,0 +1,16 @@
+.parent{
+    background-color: aquamarine;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    color:violet;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.child{
+    background-color: aliceblue;
+    border: 2px solid;
+    padding: 25px;
+    margin:20px 0px;
+    font-size:18px;
+}
